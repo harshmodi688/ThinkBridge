@@ -17,11 +17,6 @@ namespace Shopbridge_base.Domain.Models.DTO
         }
         public T Data { get; set; }
         public Validation Validation { get; set; }
-
-        public ApiResponse<IEnumerable<ProductDTO>> AsQueryable()
-        {
-            throw new NotImplementedException();
-        }
     }
 
     public class Validation
